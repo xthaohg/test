@@ -4,9 +4,10 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "93df7a35e34fe7bb9543b539b1b9f518",
-"index.html": "bd1090a351ce313048ae3b7f46159be5",
-"/": "bd1090a351ce313048ae3b7f46159be5",
-"main.dart.js": "5a6c424e050df77f2bb47f752e06d1b5",
+"index.html": "464398450dff4529d0f36e638082df7a",
+"/": "464398450dff4529d0f36e638082df7a",
+"main.dart.js": "26e64e2afc51d9f3e7d9dc61b919dda3",
+"flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -187,7 +188,11 @@ const RESOURCES = {
 "assets/assets/fonts/helveticaneueregular.ttf": "ea05f6114b3efb842e31b45781e087cf",
 "assets/assets/fonts/helveticaneuelight.ttf": "0a4d37b22558e86fc49120e96fcc2d01",
 "assets/assets/fonts/helveticaneuebold.ttf": "0b929abbf4c28007eb424cd8c6f19506",
-"assets/assets/fonts/helveticaneuemedium.ttf": "bd96bc9a5d9c3b07b628529db257e176"
+"assets/assets/fonts/helveticaneuemedium.ttf": "bd96bc9a5d9c3b07b628529db257e176",
+"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
+"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
+"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
+"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e"
 };
 
 // The application shell files that are downloaded before a service worker can
