@@ -1,0 +1,227 @@
+{
+          "form": [
+              {
+                 
+                  "page": [
+                      
+                      [
+                          {
+                              "typeInput": "text",
+                              "title": "Người mua/Người được bảo hiểm",
+                              "listData": [],
+                              "required": false,
+                              "userbuy":true,
+                              "flex": 1
+                          },
+                          {
+                              "typeInput": "buttonOCR",
+                              "value": "",
+                              "title": "Chụp giấy tờ",
+                              "listData": [],
+                              "id": "ocr",
+                              "userbuy":true,
+                              "isShowDKiem":false,
+                              "isShowDK":false,
+                              "flex": 0,
+                              "style": {
+                                  "textColor": "#F68632"
+                              }
+                          }
+                      ],
+                      [
+                          {
+                              "typeInput": "textField",
+                              "title": "Tên",
+                              "value": "",
+                              "listData": [],
+                              "id": "ten_dn",
+                              "maxlength":99,
+                              "required": true
+                          }
+                      ],
+                      [
+                          {
+                              "typeInput": "textField",
+                              "title": "CMND/CCCD/HC",
+                              "value": "",
+                              "listData": [],
+                              "id": "ma_thue",
+                              "required": true
+                          }
+                      ],
+                      [
+                        {
+                            "typeInput": "dateTimePicker",
+                            "title": "Ngày sinh",
+                            "listData": [],
+                            "value": "01/01/2000",
+                            "id": "ngay_sinh",
+                            "required": true
+                        }
+                        
+                    ],
+                    [{
+                        "typeInput": "dropDownSearch",
+                        "title": "Giới tính",
+                        "listData": [],
+                        "id": "gioi",
+                        "value": "NAM",
+                        "visible":false,
+                        "search":false,
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "gioi_tinh"
+                    }],
+                      [
+                          {
+                              "typeInput": "textField",
+                              "title": "Số điện thoại",
+                              "value": "",
+                              "listData": [],
+                              "id": "phone_dn",
+                              "required": true,
+                              "keyType": "Phone"
+                          }
+                      ],
+                      [
+                          {
+                              "typeInput": "textField",
+                              "title": "Địa chỉ",
+                              "value": "",
+                              "listData": [],
+                              "id": "dchi_dn",
+                              "required": true
+                          }
+                      ],
+                      [
+                          {
+                              "typeInput": "textField",
+                              "title": "Email",
+                              "value": "",
+                              "listData": [],
+                              "id": "email_dn",
+                              "required": true,
+                              "keyType": "Email"
+                          }
+                      ],
+                      [
+                              {
+                                  "typeInput": "dropDownSearch",
+                                  "title": "Mối quan hệ",
+                                  "listData": [],
+                                  "search":false,
+                                  "id": "qhe",
+                                  "required": true,
+                                  "value": "",
+                                  "visible":false,
+                                  "keyGetValueForShow": "TEN",
+                                  "keyGetValueForID": "MA",
+                                  "keyGetListDataFormStart": "qhe"
+                              }
+                          ],
+                    
+
+                      [
+                          {
+                              "typeInput": "dropDownSearch",
+                              "value": "000",
+                              "title": "Đơn vị bảo hiểm",
+                              "listData": [],
+                              "id": "dvi_sl",
+                              "required": true,
+                              "keyGetValueForShow": "TEN_TAT",
+                              "keyGetValueForID": "MA",
+                              "keyGetListDataFormStart": "dvi_sl"
+                          }
+                      ],
+                      [
+                          {
+                              "typeInput": "dropDownSearch",
+                              "title": "Kiểu hợp đồng",
+                              "value": "G",
+                              "listData": [],
+                              "id": "kieu_hd",
+                              "required": false,
+                              "search":false,
+                              "keyGetValueForShow": "TEN",
+                              "keyGetValueForID": "MA",
+                              "keyGetListDataFormStart": "kieu_hd"
+                          }
+                      ],
+                      [
+                          {
+                              "typeInput": "lineBox",
+                              "title": "",
+                              "value": "",
+                              "listData": [],
+                              "id": "line1",
+                              "required": true
+                          }
+                      ],
+                      [
+                              {
+                                  "typeInput": "text",
+                                  "title": "Thông tin bảo hiểm",
+                                  "listData": [],
+                                  "required": false
+                              }
+                          ],
+                          [
+                              {
+                                  "typeInput": "dropDownSearch",
+                                  "title": "Sản phẩm bảo hiểm",
+                                  "listData": [],
+                                  "id": "dt_nv",
+                                  "required": true,
+                                  "visible":false,
+                                  "value": "",
+                                  "search":false,
+                                  "keyGetValueForShow": "TEN",
+                                  "keyGetValueForID": "MA",
+                                  "keyGetListDataFormStart": "dt_nv"
+                              }
+                          ],
+                          [
+                              {
+                                  "typeInput": "dateTimePicker",
+                                  "value": "21/09/2022",
+                                  "title": "Thời hạn bảo hiểm từ",
+                                  "listData": [],
+                                  "mindate":true,
+                                  "id": "ngay_hl",
+                                  "required": true,
+                                  "flex": 2
+                              }
+                          ],
+                          [
+                              {
+                                  "typeInput": "dropDownSearch",
+                                  "title": "Gói bảo hiểm",
+                                  "listData": [],
+                                  "id": "goi",
+                                  "required": true,
+                                  "search":false,
+                                  "keyGetValueForShow": "TEN",
+                                  "keyGetValueForID": "MA",
+                                  "enabled": false,
+                                  "keyGetListDataFormStart": "goi"
+                              }
+                          ],
+                          [
+                              {
+                                  "typeInput": "dropDownSearch",
+                                  "title": "Số năm bảo hiểm",
+                                  "listData": [],
+                                  "id": "so_thang_bh",
+                                  "required": true,
+                                  "search":false,
+                                  "keyGetValueForShow": "TEN",
+                                  "keyGetValueForID": "MA",
+                                  "keyGetListDataFormStart": "so_thang_bh"
+                              }
+                          ]
+                  ]
+              }
+          ]
+      }

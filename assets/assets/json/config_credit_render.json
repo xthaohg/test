@@ -1,0 +1,662 @@
+{
+    "form": [
+        {
+            "page": [
+                [
+                    {
+                        "typeInput": "text",
+                        "value": "",
+                        "title": "Thông tin bên mua bảo hiểm",
+                        "listData": [],
+                        "id": "dl",
+                        "flex": 1
+                    },
+                    {
+                        "typeInput": "buttonOCR",
+                        "value": "",
+                        "title": "Scan giấy tờ",
+                        "listData": [],
+                        "id": "ocr",
+                        "isShowDKiem": false,
+                        "isShowDK": false,
+                        "flex": 0,
+                        "style": {
+                            "textColor": "#F68632"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "",
+                        "title": "Bên mua bảo hiểm",
+                        "listData": [],
+                        "id": "nhom_dn",
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "nhom",
+                        "visible": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tên bên mua bảo hiểm",
+                        "value": "",
+                        "listData": [],
+                        "id": "ten_dn",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Mã thuế/Số CMT/HC",
+                        "value": "",
+                        "listData": [],
+                        "id": "ma_thue",
+                        "required": false
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Số DKKD",
+                        "value": "",
+                        "listData": [],
+                        "id": "so_dkkd",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Địa chỉ",
+                        "value": "",
+                        "listData": [],
+                        "id": "dchi_dn",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "lineBox",
+                        "title": "",
+                        "value": "",
+                        "listData": [],
+                        "id": "line1",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "text",
+                        "value": "",
+                        "title": "Thông tin người được bảo hiểm",
+                        "listData": [],
+                        "id": "dl",
+                        "flex": 1
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tên",
+                        "value": "",
+                        "listData": [],
+                        "id": "ten",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dateTimePicker",
+                        "title": "Ngày sinh",
+                        "listData": [],
+                        "value": "01/01/2000",
+                        "id": "ngay_sinh",
+                        "required": false
+                    
+                    },
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Giới tính",
+                        "listData": [],
+                        "id": "gioi",
+                        "value": "NAM",
+                        "search": false,
+                        "required": false,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "gioi"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Đại diện",
+                        "value": "",
+                        "listData": [],
+                        "id": "dd_dn",
+                        "required": false
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Chức vụ",
+                        "value": "",
+                        "listData": [],
+                        "id": "cvu_dn",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Email bên mua bảo hiểm",
+                        "value": "",
+                        "listData": [],
+                        "id": "email",
+                        "required": true,
+                        "keyType": "Email"
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Số điện thoại",
+                        "value": "",
+                        "listData": [],
+                        "id": "phone",
+                        "required": true,
+                        "keyType": "Phone"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Địa chỉ hiện tại",
+                        "value": "",
+                        "listData": [],
+                        "id": "dchi_ht",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tài khoản trích phí",
+                        "value": "",
+                        "listData": [],
+                        "id": "tkhoan_kh",
+                        "required": true,
+                        "visible": false
+                    }
+                ],
+
+                
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Địa chỉ thường trú",
+                        "value": "",
+                        "listData": [],
+                        "id": "dchi",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "lineBox",
+                        "title": "",
+                        "value": "",
+                        "listData": [],
+                        "id": "line1",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "checkbox",
+                        "title": "Thông tin người nhận hóa đơn(nếu có)",
+                        "listData": [],
+                        "id": "hd_khac",
+                        "required": false,
+                        "value": "K"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tên",
+                        "value": "",
+                        "listData": [],
+                        "id": "ten_hd_nn",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Công ty người nhận",
+                        "value": "",
+                        "listData": [],
+                        "id": "cty_hd_nn",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Số điện thoại",
+                        "value": "",
+                        "listData": [],
+                        "id": "dt_hd_nn",
+                        "required": false,
+                        "keyType": "Phone"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Email",
+                        "value": "",
+                        "listData": [],
+                        "id": "email_hd_nn",
+                        "required": false,
+                        "keyType": "Email"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Địa chỉ",
+                        "value": "",
+                        "listData": [],
+                        "id": "dchi_hd_nn",
+                        "required": false
+                    }
+                ]
+            ]
+        },
+        {
+            "page": [
+                [
+                    {
+                        "typeInput": "text",
+                        "title": "Thông tin hợp đồng vay",
+                        "listData": [],
+                        "id": "dl3",
+                        "flex": 1
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "",
+                        "title": "Sản phẩm cho vay",
+                        "listData": [],
+                        "id": "ht_hd_kenh",
+                        "search": false,
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "ht_hd_kenh"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "",
+                        "title": "Loại vay",
+                        "listData": [],
+                        "search": false,
+                        "id": "loai_vay",
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "loai_vay"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Số hợp đồng vay",
+                        "value": "",
+                        "listData": [],
+                        "id": "so_hd_kenh",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Thời hạn vay",
+                        "value": "12",
+                        "listData": [],
+                        "id": "han_vay",
+                        "required": false
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Số ngày lẻ",
+                        "value": "0",
+                        "listData": [],
+                        "id": "han_vay_ngay",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dateTimePicker",
+                        "value": "12/09/2022",
+                        "title": "Ngày giải ngân",
+                        "mindate": true,
+                        "listData": [],
+                        "id": "ngay_gn",
+                        "required": true,
+                        "flex": 2
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dateTimePicker",
+                        "value": "12/09/2022",
+                        "title": "Thời hạn HĐTD",
+                        "mindate": true,
+                        "listData": [],
+                        "id": "thoi_han_hdtd",
+                        "required": true,
+                        "flex": 2
+                    },
+                    {
+                        "typeInput": "dateTimePicker",
+                        "value": "12/09/2022",
+                        "title": "Đến ngày",
+                        "mindate": true,
+                        "listData": [],
+                        "id": "den_ngay",
+                        "required": true,
+                        "flex": 2
+                    }
+                    
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Mã cán bộ",
+                        "value": "",
+                        "listData": [],
+                        "id": "ma_dao",
+                        "required": false
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Tên cán bộ",
+                        "value": "",
+                        "listData": [],
+                        "id": "ten_dao",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Email CBNH",
+                        "value": "",
+                        "listData": [],
+                        "id": "email_nhang",
+                        "required": true,
+                        "keyType": "Email"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Số CIF khách hàng",
+                        "value": "",
+                        "listData": [],
+                        "id": "so_cif_kh",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Số tiền vay",
+                        "value": "0",
+                        "listData": [],
+                        "id": "tien_vay",
+                        "required": false,
+                        "keyType": "Number",
+                        "formatShow": "Money"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "lineBox",
+                        "title": "",
+                        "value": "",
+                        "listData": [],
+                        "id": "line1",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "text",
+                        "title": "Thông tin yêu cầu bảo hiểm",
+                        "listData": [],
+                        "id": "dl3",
+                        "flex": 1
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "",
+                        "title": "Loại bảo hiểm",
+                        "listData": [],
+                        "id": "loai_bh",
+                        "search": false,
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "loai_bh"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Thời hạn tháng",
+                        "value": "12",
+                        "listData": [],
+                        "id": "so_thang_bh",
+                        "required": false
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Số ngày lẻ",
+                        "value": "0",
+                        "listData": [],
+                        "id": "so_ngay_bh",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Số tiền bảo hiểm",
+                        "value": "0",
+                        "listData": [],
+                        "id": "tien_bh",
+                        "required": false,
+                        "keyType": "Number",
+                        "formatShow": "Money"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "",
+                        "title": "Gói bảo hiểm",
+                        "listData": [],
+                        "search": false,
+                        "id": "goi",
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "goi"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tỉ lệ phí",
+                        "value": "0",
+                        "listData": [],
+                        "id": "pt",
+                        "required": false,
+                        "formatShow": "Percent"
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Phí bảo hiểm",
+                        "value": "0",
+                        "listData": [],
+                        "id": "phi",
+                        "required": false,
+                        "enabled": false,
+                        "formatShow": "Money"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Phí dịch vụ",
+                        "value": "0",
+                        "listData": [],
+                        "id": "phi_dv",
+                        "required": false,
+                        "formatShow": "Money"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dateTimePicker",
+                        "value": "16:44",
+                        "title": "Hiệu lực từ",
+                        "listData": [],
+                        "id": "ngay_hl",
+                        "required": true,
+                        "flex": 1
+                    },
+                    {
+                        "typeInput": "dateTimePicker",
+                        "value": "12/09/2022",
+                        "title": "Đến ngày",
+                        "mindate": true,
+                        "listData": [],
+                        "id": "ngay_kt",
+                        "required": true,
+                        "flex": 1
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "K",
+                        "title": "Hình thức thanh toán",
+                        "listData": [],
+                        "search": false,
+                        "id": "ht_ttoan",
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "ht_ttoan"
+                    },
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "M",
+                        "title": "Hình thức trả phí",
+                        "listData": [],
+                        "search": false,
+                        "id": "ht_tra",
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "ht_tra"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "kyPhi",
+                        "value": "",
+                        "title": "Thông tin tính phí",
+                        "listData": [],
+                        "search": false,
+                        "id": "ky_phi",
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA"
+                    }
+                ]
+            ]
+        },
+        {
+            "page": [
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Trạng thái",
+                        "value": "T",
+                        "listData": [],
+                        "id": "ttrang",
+                        "search": false,
+                        "required": false,
+                        "enabled": false,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "ttrang"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Số hợp đồng",
+                        "value": "",
+                        "listData": [],
+                        "id": "so_hd",
+                        "enabled": false,
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Kiểu hợp đồng",
+                        "value": "",
+                        "listData": [],
+                        "id": "kieu_hd",
+                        "search": false,
+                        "required": false,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "enabled": false,
+                        "keyGetListDataFormStart": "kieu_hd"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Đơn vị bảo hiểm",
+                        "value": "",
+                        "listData": [],
+                        "id": "dvi_sl",
+                        "search": false,
+                        "required": false,
+                        "keyGetValueForShow": "TEN_TAT",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "dvi_sl"
+                    }
+                ]
+            ]
+        }
+    ]
+}

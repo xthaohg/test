@@ -1,0 +1,389 @@
+{
+    "form": [
+        {
+            "page": [
+                [
+                    {
+                        "typeInput": "text",
+                        "title": "Thông tin người mua",
+                        "listData": [],
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tên",
+                        "value": "",
+                        "listData": [],
+                        "id": "ten_dn",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "CMND/CCCD/HC",
+                        "value": "",
+                        "listData": [],
+                        "id": "ma_thue",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Số điện thoại",
+                        "value": "",
+                        "listData": [],
+                        "id": "phone_dn",
+                        "required": true,
+                        "keyType": "Phone"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Địa chỉ",
+                        "value": "",
+                        "listData": [],
+                        "id": "dchi_dn",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Email",
+                        "value": "",
+                        "listData": [],
+                        "id": "email_dn",
+                        "required": true,
+                        "keyType": "Email"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "lineBox",
+                        "title": "",
+                        "value": "",
+                        "listData": [],
+                        "id": "line1",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "text",
+                        "title": "Thông tin hợp đồng",
+                        "listData": [],
+                        "id": "",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "000",
+                        "title": "Đơn vị bảo hiểm",
+                        "listData": [],
+                        "id": "dvi_sl",
+                        "required": true,
+                        "keyGetValueForShow": "TEN_TAT",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "dvi_sl"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Kiểu hợp đồng",
+                        "value": "G",
+                        "listData": [],
+                        "id": "kieu_hd",
+                        "required": false,
+                        "search": false,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "kieu_hd"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "lineBox",
+                        "title": "",
+                        "value": "",
+                        "listData": [],
+                        "id": "line1",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "text",
+                        "title": "Thông tin bảo hiểm",
+                        "listData": [],
+                        "id": "",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "000",
+                        "title": "Điểm khởi hành",
+                        "listData": [],
+                        "id": "diem_kh",
+                        "required": true,
+                        "keyGetValueForShow": "TEN_TAT",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "dvi_sl"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "000",
+                        "title": "Điểm đến",
+                        "listData": [],
+                        "id": "diem_den",
+                        "required": true,
+                        "keyGetValueForShow": "TEN_TAT",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "dvi_sl"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "button",
+                        "title": "+Thêm điểm đến",
+                        "flex": 1,
+                        "id": "addPronvince",
+                        "listData": [],
+                        "style": {
+                            "textColor": "#F68632",
+                            "textStyle": "bold"
+                        },
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "text",
+                        "title": "Hành trình: Việt Nam - Băng cốc - Jarkatar - Quatar - London",
+                        "listData": [],
+                        "id": "ht",
+                        "required": true
+                    }
+                ],[
+                    {
+                        "typeInput": "dateTimePicker",
+                        "value": "12/09/2022",
+                        "title": "Ngày Đi",
+                        "mindate": true,
+                        "listData": [],
+                        "id": "ngay_di",
+                        "required": true,
+                        "flex": 2
+                    },
+                    {
+                        "typeInput": "dateTimePicker",
+                        "value": "12/09/2022",
+                        "title": "Ngày Về",
+                        "mindate": true,
+                        "listData": [],
+                        "id": "ngay_ve",
+                        "required": true,
+                        "flex": 2
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Gói bảo hiểm",
+                        "listData": [],
+                        "id": "goi",
+                        "required": true,
+                        "search": false,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "goi"
+                    }
+                ]
+            ]
+        },
+        {
+            "page": [
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "",
+                        "value": "K",
+                        "listData": [],
+                        "id": "suc_khoe",
+                        "required": true,
+                        "visible": false,
+                        "keyGetListDataFormStart": "suc_khoe"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "groupPerson",
+                        "title": "",
+                        "listData": [],
+                        "id": "groupPerson",
+                        "value": ""
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Mối quan hệ",
+                        "listData": [],
+                        "search": false,
+                        "id": "qhe",
+                        "required": true,
+                        "value": "",
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "qhe"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tên",
+                        "value": "",
+                        "listData": [],
+                        "id": "ten",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "CMND/CCCD/HC",
+                        "value": "",
+                        "listData": [],
+                        "id": "so_cmt",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dateTimePicker",
+                        "title": "Ngày sinh",
+                        "listData": [],
+                        "value": "01/01/2000",
+                        "id": "ngay_sinh",
+                        "required": true
+                    },
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Giới tính",
+                        "listData": [],
+                        "id": "gioi",
+                        "value": "NAM",
+                        "search": false,
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "gioi_tinh"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Số điện thoại",
+                        "value": "",
+                        "listData": [],
+                        "id": "phone",
+                        "required": true,
+                        "keyType": "Phone"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Địa chỉ",
+                        "value": "",
+                        "listData": [],
+                        "id": "dchi",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Email",
+                        "value": "",
+                        "listData": [],
+                        "id": "email",
+                        "required": true,
+                        "keyType": "Email"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "text",
+                        "title": "Thông tin bảo hiểm",
+                        "listData": [],
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dateTimePicker",
+                        "value": "21/09/2022",
+                        "title": "Ngày HL",
+                        "listData": [],
+                        "mindate": true,
+                        "id": "ngay_hl",
+                        "required": true,
+                        "flex": 2
+                    }
+                ],
+                
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Số tháng bảo hiểm",
+                        "listData": [],
+                        "id": "so_thang_bh",
+                        "required": true,
+                        "search": false,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "so_thang_bh"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "button",
+                        "title": "Thêm",
+                        "flex": 1,
+                        "id": "addPerson",
+                        "listData": [],
+                        "style": {
+                            "textColor": "#F68632",
+                            "textStyle": "bold"
+                        },
+                        "required": false
+                    },
+                    {
+                        "typeInput": "button",
+                        "title": "Thu gọn",
+                        "id": "collapse",
+                        "flex": 0,
+                        "style": {
+                            "textColor": "#F68632",
+                            "textStyle": "bold"
+                        },
+                        "listData": [],
+                        "required": false
+                    }
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1428 @@
+{
+    "form": [
+        {
+            "page": [
+                [
+                    {
+                        "typeInput": "text",
+                        "value": "",
+                        "title": "I. Thông tin xe",
+                        "listData": [
+                            {
+                                "MA": "K",
+                                "TEN": "Không chuyên thu"
+                            },
+                            {
+                                "MA": "C",
+                                "TEN": "Chuyên thu"
+                            }
+                        ],
+                        "id": "dl",
+                        "flex": 1
+                    },
+                    {
+                        "typeInput": "buttonOCR",
+                        "value": "",
+                        "title": "Chụp giấy tờ",
+                        "listData": [],
+                        "id": "ocr",
+                        "isShowCCCD": false,
+                        "flex": 0,
+                        "style": {
+                            "textColor": "#F68632"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "",
+                        "title": "Đơn vị bảo hiểm",
+                        "listData": [],
+                        "id": "dvi_sl",
+                        "required": true,
+                        "keyGetValueForShow": "TEN_TAT",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "dvi_sl"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Kiểu hợp đồng",
+                        "value": "G",
+                        "listData": [],
+                        "id": "kieu_hd",
+                        "search": false,
+                        "required": false,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "kieu_hd"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Kênh khai thác",
+                        "value": "",
+                        "listData": [],
+                        "id": "ma_kt_tong",
+                        "flex": 1,
+                        "visible": false,
+                        "required": false
+                    },
+                    {
+                        "typeInput": "button",
+                        "value": "",
+                        "title": "Tìm kiếm",
+                        "listData": [],
+                        "id": "btn_search_kenh_kt",
+                        "flex": 0,
+                        "visible": false,
+                        "style": {
+                            "textColor": "#F68632"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Số GCN BB",
+                        "value": "",
+                        "listData": [],
+                        "id": "gcn_m",
+                        "flex": 1,
+                        "visible": false,
+                        "required": false
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "",
+                        "value": "",
+                        "listData": [],
+                        "id": "gcn_s",
+                        "flex": 1,
+                        "visible": false,
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Hãng xe",
+                        "value": "",
+                        "listData": [],
+                        "id": "hang_xe",
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "hang_xe"
+                    },
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Hiệu xe",
+                        "value": "",
+                        "listData": [],
+                        "id": "hieu_xe",
+                        "keyGetValueForShow": "ten",
+                        "keyGetValueForID": "MA",
+                        "required": true,
+                        "keyGetListDataFormStart": "hieu_xe"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "2022",
+                        "title": "Năm sản xuất",
+                        "listData": [],
+                        "id": "nam_sx",
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA"
+                    },
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "",
+                        "title": "Xe kinh doanh",
+                        "listData": [],
+                        "search": false,
+                        "id": "md_sd",
+                        "required": true,
+                        "keyGetValueForShow": "ten",
+                        "keyGetValueForID": "ma",
+                        "keyGetListDataFormStart": "md_sd"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Loại xe",
+                        "value": "",
+                        "listData": [],
+                        "id": "loai_xe",
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "loai_xe"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Số chỗ ngồi",
+                        "value": "0",
+                        "listData": [],
+                        "id": "so_cn",
+                        "required": true,
+                        "keyType": "Number"
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Trọng tải",
+                        "value": "0",
+                        "listData": [],
+                        "id": "ttai",
+                        "required": true,
+                        "double": true,
+                        "keyType": "Number"
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Số NBH",
+                        "value": "0",
+                        "listData": [],
+                        "id": "so_nbh",
+                        "required": true,
+                        "keyType": "Number"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Biển xe",
+                        "value": "",
+                        "listData": [],
+                        "id": "bien_xe",
+                        "maxlength": 20,
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Số khung",
+                        "value": "",
+                        "listData": [],
+                        "id": "so_khung",
+                        "maxlength": 20,
+                        "required": false
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Số máy",
+                        "value": "",
+                        "listData": [],
+                        "maxlength": 20,
+                        "id": "so_may",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "text",
+                        "value": "",
+                        "title": "",
+                        "listData": [],
+                        "id": "tlBt",
+                        "flex": 1
+                    },
+                    {
+                        "typeInput": "button",
+                        "value": "",
+                        "title": "Tỉ lệ bồi thường",
+                        "listData": [],
+                        "id": "btnTiLeBT",
+                        "flex": 0,
+                        "style": {
+                            "textColor": "#F68632",
+                            "colorBorder": "#F68632",
+                            "textStyle": "normal"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "text",
+                        "value": "",
+                        "title": "II. Hiệu lực bảo hiểm",
+                        "listData": [],
+                        "id": "dl",
+                        "flex": 1
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dateTimePicker",
+                        "value": "16:44",
+                        "title": "Giờ hiệu lực",
+                        "listData": [],
+                        "id": "gio_hl",
+                        "required": true,
+                        "flex": 1,
+                        "typeChildInput": "timePicker"
+                    },
+                    {
+                        "typeInput": "dateTimePicker",
+                        "value": "12/09/2022",
+                        "title": "Ngày hiệu lực",
+                        "mindate": true,
+                        "listData": [],
+                        "id": "ngay_hl",
+                        "required": true,
+                        "flex": 1
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dateTimePicker",
+                        "title": "Giờ kết thúc",
+                        "value": "16:44",
+                        "listData": [],
+                        "id": "gio_kt",
+                        "required": true,
+                        "flex": 1,
+                        "typeChildInput": "timePicker"
+                    },
+                    {
+                        "typeInput": "dateTimePicker",
+                        "value": "12/09/2023",
+                        "title": "Ngày kết thúc",
+                        "listData": [],
+                        "id": "ngay_kt",
+                        "required": true,
+                        "flex": 1
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "text",
+                        "title": "III. Chương trình bảo hiểm",
+                        "listData": [],
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "checkbox",
+                        "title": "Bảo hiểm TNDS bắt buộc",
+                        "listData": [],
+                        "id": "bn",
+                        "visible": true,
+                        "required": false,
+                        "value": "K"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dateTimePicker",
+                        "value": "16:44",
+                        "title": "Giờ HL",
+                        "listData": [],
+                        "id": "gio_hl_tnds",
+                        "required": true,
+                        "flex": 1,
+                        "typeChildInput": "timePicker"
+                    },
+                    {
+                        "typeInput": "dateTimePicker",
+                        "value": "12/09/2023",
+                        "title": "Ngày HL",
+                        "listData": [],
+                        "id": "ngay_hl_tnds",
+                        "required": true,
+                        "flex": 1
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dateTimePicker",
+                        "value": "16:44",
+                        "title": "Giờ KT",
+                        "listData": [],
+                        "id": "gio_kt_tnds",
+                        "required": true,
+                        "flex": 1,
+                        "typeChildInput": "timePicker"
+                    },
+                    {
+                        "typeInput": "dateTimePicker",
+                        "value": "12/09/2023",
+                        "title": "Ngày KT",
+                        "listData": [],
+                        "id": "ngay_kt_tnds",
+                        "required": true,
+                        "flex": 1
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Phí",
+                        "listData": [],
+                        "value": "0",
+                        "id": "phi_tnds",
+                        "keyType": "Number",
+                        "formatShow": "Money",
+                        "required": false,
+                        "enabled": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "checkbox",
+                        "title": "BH Lái, phụ xe, người ngồi trên xe",
+                        "listData": [],
+                        "id": "tl",
+                        "visible": false,
+                        "required": false,
+                        "value": "K",
+                        "enabled": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "radioButton",
+                        "title": "Phí theo hiệu lực BH vật chất",
+                        "listData": [],
+                        "id": "hllpxTv",
+                        "required": false,
+                        "value": "TV",
+                        "flex": 1,
+                        "enabled": true
+                    },
+                    {
+                        "typeInput": "radioButton",
+                        "title": "Phí theo hiệu lực BH TNDS",
+                        "listData": [],
+                        "id": "hllpxBn",
+                        "required": false,
+                        "value": "BN",
+                        "flex": 1,
+                        "enabled": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Gói bảo hiểm lái xe",
+                        "listData": [],
+                        "id": "goi_tl",
+                        "required": false,
+                        "formatShow": "Money",
+                        "search": false,
+                        "value": "",
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "goi_tl"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tiền",
+                        "listData": [],
+                        "value": "",
+                        "id": "tien_tl",
+                        "required": false,
+                        "keyType": "Number",
+                        "formatShow": "Money",
+                        "flex": 3
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Tỷ lệ",
+                        "listData": [],
+                        "id": "pt_tl",
+                        "required": false,
+                        "value": "",
+                        "formatShow": "Percent",
+                        "keyType": "Number",
+                        "flex": 2
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Phí",
+                        "listData": [],
+                        "id": "phi_tl",
+                        "enabled": false,
+                        "value": "",
+                        "formatShow": "Money",
+                        "keyType": "Number",
+                        "flex": 3
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "line",
+                        "title": "",
+                        "value": "",
+                        "listData": [],
+                        "id": "line_tl",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Gói bảo hiểm phụ xe",
+                        "listData": [],
+                        "id": "goi_tlp",
+                        "value": "",
+                        "search": false,
+                        "formatShow": "Money",
+                        "required": false,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "goi_tl"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tiền",
+                        "listData": [],
+                        "value": "",
+                        "id": "tien_tlp",
+                        "required": false,
+                        "keyType": "Number",
+                        "formatShow": "Money",
+                        "flex": 3
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Tỷ lệ",
+                        "listData": [],
+                        "value": "",
+                        "id": "pt_tlp",
+                        "required": false,
+                        "formatShow": "Percent",
+                        "keyType": "Number",
+                        "flex": 2
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Phí",
+                        "listData": [],
+                        "value": "",
+                        "id": "phi_tlp",
+                        "enabled": false,
+                        "formatShow": "Money",
+                        "keyType": "Number",
+                        "flex": 3
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "line",
+                        "title": "",
+                        "value": "",
+                        "listData": [],
+                        "id": "line_tlp",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Bảo hiểm NNTX",
+                        "listData": [],
+                        "id": "goi_tlk",
+                        "search": false,
+                        "value": "",
+                        "formatShow": "Money",
+                        "required": false,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "goi_tl"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tiền",
+                        "listData": [],
+                        "value": "",
+                        "id": "tien_tlk",
+                        "required": false,
+                        "keyType": "Number",
+                        "formatShow": "Money",
+                        "flex": 3
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Tỷ lệ",
+                        "listData": [],
+                        "id": "pt_tlk",
+                        "value": "",
+                        "required": false,
+                        "formatShow": "Percent",
+                        "keyType": "Number",
+                        "flex": 2
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Phí",
+                        "listData": [],
+                        "value": "",
+                        "id": "phi_tlk",
+                        "enabled": false,
+                        "formatShow": "Money",
+                        "keyType": "Number",
+                        "flex": 3
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "MTN trợ cấp nằm viện",
+                        "listData": [],
+                        "id": "tien_tnv",
+                        "search": false,
+                        "value": "",
+                        "formatShow": "Money",
+                        "required": false,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "TIEN",
+                        "keyGetListDataFormStart": "tien_tnv",
+                        "flex": 5
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Phí",
+                        "listData": [],
+                        "value": "",
+                        "id": "phi_tnv",
+                        "enabled": false,
+                        "formatShow": "Money",
+                        "keyType": "Number",
+                        "flex": 3
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "checkbox",
+                        "title": "BH TNDS tự nguyện",
+                        "listData": [],
+                        "id": "tn",
+                        "visible": false,
+                        "required": false,
+                        "value": "K",
+                        "enabled": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "TN về người",
+                        "listData": [],
+                        "value": "",
+                        "id": "tien_tn",
+                        "required": false,
+                        "keyType": "Number",
+                        "formatShow": "Money",
+                        "flex": 3
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Tỷ lệ",
+                        "listData": [],
+                        "id": "pt_tn",
+                        "required": false,
+                        "value": "",
+                        "formatShow": "Percent",
+                        "keyType": "Number",
+                        "flex": 2
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Phí",
+                        "listData": [],
+                        "id": "phi_tn",
+                        "enabled": false,
+                        "value": "",
+                        "formatShow": "Money",
+                        "keyType": "Number",
+                        "flex": 3
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "line",
+                        "title": "",
+                        "value": "",
+                        "listData": [],
+                        "id": "line_tn",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "TN về tài sản",
+                        "listData": [],
+                        "value": "",
+                        "id": "tien_tt",
+                        "required": false,
+                        "keyType": "Number",
+                        "formatShow": "Money",
+                        "flex": 3
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Tỷ lệ",
+                        "listData": [],
+                        "value": "",
+                        "id": "pt_tt",
+                        "required": false,
+                        "formatShow": "Percent",
+                        "keyType": "Number",
+                        "flex": 2
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Phí",
+                        "listData": [],
+                        "value": "",
+                        "id": "phi_tt",
+                        "enabled": false,
+                        "formatShow": "Money",
+                        "keyType": "Number",
+                        "flex": 3
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "line",
+                        "title": "",
+                        "value": "",
+                        "listData": [],
+                        "id": "line_tt"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "TN về khách hàng",
+                        "listData": [],
+                        "value": "",
+                        "id": "tien_tk",
+                        "required": false,
+                        "keyType": "Number",
+                        "formatShow": "Money",
+                        "flex": 3
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Tỷ lệ",
+                        "listData": [],
+                        "id": "pt_tk",
+                        "value": "",
+                        "required": false,
+                        "formatShow": "Percent",
+                        "keyType": "Number",
+                        "flex": 2
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Phí",
+                        "listData": [],
+                        "value": "",
+                        "id": "phi_tk",
+                        "enabled": false,
+                        "formatShow": "Money",
+                        "keyType": "Number",
+                        "flex": 3
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "line",
+                        "title": "",
+                        "value": "",
+                        "listData": [],
+                        "id": "line_tmtn"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tổng mức trách nhiệm",
+                        "listData": [],
+                        "value": "",
+                        "id": "tong_muc_tn",
+                        "required": false,
+                        "keyType": "Number",
+                        "formatShow": "Money",
+                        "enabled":false,
+                        "flex": 1
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "checkbox",
+                        "title": "BH tự nguyện về hàng hóa",
+                        "listData": [],
+                        "id": "th",
+                        "required": false,
+                        "visible": false,
+                        "value": "K",
+                        "enabled": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tổng mức TN",
+                        "listData": [],
+                        "value": "",
+                        "id": "tien_th",
+                        "keyType": "Number",
+                        "formatShow": "Money",
+                        "flex": 3
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Tỷ lệ",
+                        "listData": [],
+                        "id": "pt_th",
+                        "value": "",
+                        "formatShow": "Percent",
+                        "keyType": "Number",
+                        "flex": 2
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Phí",
+                        "listData": [],
+                        "id": "phi_th",
+                        "value": "",
+                        "formatShow": "Money",
+                        "keyType": "Number",
+                        "flex": 3,
+                        "enabled": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "checkbox",
+                        "title": "Bảo hiểm vật chất xe",
+                        "listData": [],
+                        "id": "tv",
+                        "required": false,
+                        "value": "C",
+                        "visible": false,
+                        "enabled": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Giá trị xe tham khảo",
+                        "listData": [],
+                        "value": "",
+                        "id": "gia_xe_khac",
+                        "keyType": "Number",
+                        "formatShow": "Money",
+                        "flex": 1,
+                        "enabled": true,
+                        "visible": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Giá trị xe khai báo",
+                        "listData": [],
+                        "value": "",
+                        "id": "gia_xe_tk",
+                        "keyType": "Number",
+                        "formatShow": "Money",
+                        "flex": 3
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Số tiền bảo hiểm",
+                        "listData": [],
+                        "id": "gia_xe",
+                        "value": "",
+                        "formatShow": "Money",
+                        "keyType": "Number",
+                        "flex": 3
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Phí xe sang",
+                        "listData": [],
+                        "id": "pt_sang",
+                        "value": "",
+                        "enabled": false,
+                        "formatShow": "Money",
+                        "keyType": "Number",
+                        "flex": 3
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Tỷ lệ",
+                        "listData": [],
+                        "id": "pt_tv",
+                        "value": "",
+                        "formatShow": "Percent",
+                        "keyType": "Number",
+                        "flex": 3
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Phí",
+                        "listData": [],
+                        "value": "",
+                        "id": "phi_tv",
+                        "required": false,
+                        "enabled": false,
+                        "keyType": "Number",
+                        "formatShow": "Money",
+                        "flex": 3
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Mức khấu trừ",
+                        "listData": [],
+                        "id": "muc_ktru",
+                        "value": "0",
+                        "formatShow": "Money",
+                        "keyType": "Number",
+                        "flex": 3
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "text",
+                        "title": "Điều khoản bổ sung",
+                        "listData": [],
+                        "id": "text_dkbx",
+                        "required": true
+                    },
+                    {
+                        "typeInput": "button",
+                        "title": "Chi tiết",
+                        "id": "dkmr_button",
+                        "listData": [],
+                        "style": {
+                            "textColor": "#F68632",
+                            "textStyle": "bold"
+                        },
+                        "required": false,
+                        "flex": 0
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "text",
+                        "title": "Số điều khoản bổ sung",
+                        "listData": [],
+                        "id": "text_sdkmr",
+                        "required": true,
+                        "flex": 1
+                    },
+                    {
+                        "typeInput": "text",
+                        "title": "",
+                        "listData": [],
+                        "id": "numofdkmr",
+                        "required": true,
+                        "flex": 0
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "text",
+                        "value": "0",
+                        "title": "Phí điều khoản bổ sung",
+                        "listData": [],
+                        "id": "text_phimr",
+                        "required": true,
+                        "flex": 1
+                    },
+                    {
+                        "typeInput": "text",
+                        "title": "0",
+                        "value": "0",
+                        "listData": [],
+                        "id": "phi_tvmr",
+                        "required": true,
+                        "flex": 0
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "text",
+                        "title": "",
+                        "listData": [],
+                        "id": "flex_btn_tinh_phi",
+                        "required": true,
+                        "flex": 1
+                    },
+                    {
+                        "typeInput": "button",
+                        "title": "Tính phí",
+                        "id": "btn_tinh_phi",
+                        "listData": [],
+                        "style": {
+                            "textColor": "#F68632",
+                            "textStyle": "bold"
+                        },
+                        "required": false,
+                        "flex": 0
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Mô tả bổ sung",
+                        "listData": [],
+                        "id": "gia_xe_nd",
+                        "value": ""
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Mã khuyến mại",
+                        "listData": [],
+                        "value": "",
+                        "id": "ma_km",
+                        "flex": 3
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tỉ lệ phí giảm",
+                        "listData": [],
+                        "id": "pt_giam",
+                        "enabled": false,
+                        "value": "",
+                        "formatShow": "Percent",
+                        "keyType": "Number",
+                        "flex": 3
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Phí được giảm",
+                        "listData": [],
+                        "id": "tien_giam",
+                        "enabled": false,
+                        "value": "",
+                        "formatShow": "Money",
+                        "keyType": "Number",
+                        "flex": 3
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "text",
+                        "title": "Trình phí",
+                        "listData": [],
+                        "id": "text_trinh_phi",
+                        "required": true,
+                        "flex": 1
+                    },
+                    {
+                        "typeInput": "button",
+                        "title": "Chi tiết",
+                        "id": "btn_tp_ct",
+                        "listData": [],
+                        "style": {
+                            "textColor": "#F68632",
+                            "textStyle": "bold"
+                        },
+                        "required": false,
+                        "flex": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "page": [
+                [
+                    {
+                        "typeInput": "text",
+                        "value": "",
+                        "title": "IV. Thông tin chủ xe",
+                        "listData": [],
+                        "id": "dl",
+                        "flex": 1
+                    },
+                    {
+                        "typeInput": "buttonOCR",
+                        "value": "",
+                        "title": "Chụp giấy tờ",
+                        "listData": [],
+                        "id": "ocr_1",
+                        "flex": 0,
+                        "style": {
+                            "textColor": "#F68632"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "",
+                        "title": "Bên mua bảo hiểm",
+                        "listData": [],
+                        "id": "nhom",
+                        "required": true,
+                        "search": false,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "nhom"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tên bên mua bảo hiểm",
+                        "value": "",
+                        "listData": [],
+                        "id": "ten_dn",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Số DKKD",
+                        "value": "",
+                        "listData": [],
+                        "id": "so_dkkd",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Mã thuế/Số CMT/HC",
+                        "value": "",
+                        "listData": [],
+                        "id": "ma_thue",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Địa chỉ",
+                        "value": "",
+                        "listData": [],
+                        "id": "dchi_dn",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Đại diện",
+                        "value": "",
+                        "listData": [],
+                        "id": "dd_dn",
+                        "required": false
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Chức vụ",
+                        "value": "",
+                        "listData": [],
+                        "id": "cvu_dn",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tên chủ xe",
+                        "value": "",
+                        "listData": [],
+                        "id": "ten",
+                        "required": true
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Số điện thoại",
+                        "value": "",
+                        "listData": [],
+                        "id": "phone",
+                        "required": true,
+                        "keyType": "Phone"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Email",
+                        "value": "",
+                        "listData": [],
+                        "id": "email",
+                        "required": true,
+                        "keyType": "Email"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Mã cán bộ bán hàng",
+                        "value": "",
+                        "listData": [],
+                        "id": "ma_dao",
+                        "required": false
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Tên cán bộ bán hàng",
+                        "value": "",
+                        "listData": [],
+                        "id": "ten_dao",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": " Email cán bộ bán hàng",
+                        "value": "",
+                        "listData": [],
+                        "id": "email_nhang",
+                        "required": false,
+                        "keyType": "Email"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "",
+                        "title": "Loại thụ hưởng",
+                        "listData": [],
+                        "id": "loai_th",
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "loai_th"
+                    },
+                    {
+                        "typeInput": "textField",
+                        "title": "Mã thụ hưởng",
+                        "value": "",
+                        "listData": [],
+                        "id": "ma_th",
+                        "enabled": false,
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Người thụ hưởng",
+                        "value": "",
+                        "listData": [],
+                        "id": "nguoi_th",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Địa chỉ thụ hưởng",
+                        "value": "",
+                        "listData": [],
+                        "id": "dchi_nguoi_th",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "checkbox",
+                        "title": "Thông tin người nhận hóa đơn(nếu có)",
+                        "listData": [],
+                        "id": "hd_khac",
+                        "required": false,
+                        "value": "K"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Tên",
+                        "value": "",
+                        "listData": [],
+                        "id": "ten_hd_nn",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Công ty người nhận",
+                        "value": "",
+                        "listData": [],
+                        "id": "cty_hd_nn",
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Số điện thoại",
+                        "value": "",
+                        "listData": [],
+                        "id": "dt_hd_nn",
+                        "required": false,
+                        "keyType": "Phone"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Email",
+                        "value": "",
+                        "listData": [],
+                        "id": "email_hd_nn",
+                        "required": false,
+                        "keyType": "Email"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Địa chỉ",
+                        "value": "",
+                        "listData": [],
+                        "id": "dchi_hd_nn",
+                        "required": false
+                    }
+                ]
+            ]
+        },
+        {
+            "page": [
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Trạng thái",
+                        "value": "T",
+                        "listData": [],
+                        "id": "ttrang",
+                        "search": false,
+                        "required": false,
+                        "enabled": false,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "ttrang"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "textField",
+                        "title": "Số hợp đồng",
+                        "value": "",
+                        "listData": [],
+                        "id": "so_hd",
+                        "enabled": false,
+                        "required": false
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "title": "Tính chất xe",
+                        "value": "",
+                        "listData": [],
+                        "id": "tc_sd",
+                        "search": false,
+                        "required": false,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "tc_sd"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "K",
+                        "title": "Hình thức thanh toán",
+                        "listData": [],
+                        "search": false,
+                        "id": "ht_ttoan",
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "ht_ttoan"
+                    },
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "M",
+                        "title": "Hình thức trả phí",
+                        "listData": [],
+                        "search": false,
+                        "id": "ht_tra",
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "ht_tra"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "dropDownSearch",
+                        "value": "K",
+                        "title": "Loại thanh toán",
+                        "listData": [
+                            {
+                                "MA": "K",
+                                "TEN": "Không chuyên thu"
+                            },
+                            {
+                                "MA": "C",
+                                "TEN": "Chuyên thu"
+                            }
+                        ],
+                        "search": false,
+                        "id": "loai_ttoan",
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA",
+                        "keyGetListDataFormStart": "loai_ttoan"
+                    }
+                ],
+                [
+                    {
+                        "typeInput": "kyPhi",
+                        "value": "",
+                        "title": "Thông tin tính phí",
+                        "listData": [],
+                        "search": false,
+                        "id": "ky_phi",
+                        "required": true,
+                        "keyGetValueForShow": "TEN",
+                        "keyGetValueForID": "MA"
+                    }
+                ]
+            ]
+        }
+    ]
+}

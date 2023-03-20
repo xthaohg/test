@@ -1,0 +1,41 @@
+
+<script type='text/javascript'>
+          function loadMediaFrame()
+          {
+              var lImg = document.getElementsByTagName('img');
+              for(var i=0;i<lImg.length;i++)
+              {
+                  if(window.innerWidth<lImg[i].clientWidth)
+                  {
+                      lImg[i].style.width='96%';lImg[i].style.height='auto';
+                  }
+              }
+          }
+      </script>
+      <html><head>
+          <meta charset="utf-8"/>
+          <style type="text/css">
+              body {
+                  
+                  font-family: "Helveticaneue", sans-serif  !important;
+                  font-size: 40px !important;
+                  background-color:none;
+                  width:96% !important;
+                  padding-top:0px !important;
+                  padding-bottom:0px !important;
+                  padding-left: 0px !important;
+                  padding-right: 0px !important;
+                  margin-left: 10px !important;
+                  word-wrap: break-word !important;
+                  line-height:auto;
+                  text-align: left;
+              }
+          
+              </style>
+      </head>
+      
+<body onload='loadMediaFrame()'>
+<div class="article"><p style="font-size:160%;">contentdata</p></div>
+</body>
+</html>
+      
