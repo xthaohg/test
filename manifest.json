@@ -31,9 +31,5 @@
             "type": "image/png",
             "purpose": "maskable"
         }
-    ],
-    "permissions": [
-        "http://betaapikenhban.pti.com.vn",
-        "https://betaapireport.pti.com.vn"
     ]
 }
